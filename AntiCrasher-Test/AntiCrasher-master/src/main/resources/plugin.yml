@@ -1,0 +1,18 @@
+name: AntiCrasher
+version: '${project.version}'
+main: net.craftsupport.anticrasher.AntiCrasher
+api-version: '1.13'
+softdepend:
+  - ProtocolLib
+  - ProtocolSupport
+  - ViaVersion
+  - ViaBackwards
+  - ViaRewind
+  - Geyser-Spigot
+  - PlaceholderAPI
+author: CraftSupport
+commands:
+  acreload:
+    description: Reloads the plugin
+    usage: /acreload
+    permission: anticrasher.reload
